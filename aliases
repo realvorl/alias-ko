@@ -1,0 +1,4 @@
+# community driven aliases
+
+alias weather-where-i-am='curl -s https://wttr.in/$(curl -s ipinfo.io/city)'
+alias wwim=weather-where-i-am
