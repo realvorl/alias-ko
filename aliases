@@ -1,8 +1,8 @@
 # community driven aliases
-
-alias weather-where-i-am='curl -s https://wttr.in/$(curl -s ipinfo.io/city)'
+alias weather-where-i-am='curl -s https://wttr.in/$(curl -s ipinfo.io/city) '
 alias wwim=weather-where-i-am
 
 # my favorite git shorthands
-alias gitl='git log --format=format:%Cblue%h%Creset\ \[%an\]\ %Cred%s%Creset'
-alias gits='git status'
+alias gitl='git log --format=format:%Cblue%h%Creset\ \[%an\]\ %Cred%s%Creset '
+alias gits='git status '
+alias diff='diff --color ' 
