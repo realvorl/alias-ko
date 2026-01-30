@@ -6,3 +6,6 @@ alias wwim=weather-where-i-am
 alias gitl='git log --format=format:%Cblue%h%Creset\ \[%an\]\ %Cred%s%Creset '
 alias gits='git status '
 alias diff='diff --color ' 
+
+#ls convenience
+alias ll='ls -lisah '
